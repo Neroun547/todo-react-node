@@ -1,0 +1,27 @@
+.wrapper__nav {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: #4A81FF;
+}
+
+.wrapper__nav nav {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper__nav nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.wrapper__nav button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #5B8DFF;
+    cursor: pointer;
+}
